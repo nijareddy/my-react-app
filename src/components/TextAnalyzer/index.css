@@ -1,0 +1,99 @@
+
+  .text-analyzer{
+    text-align: center;
+    padding: 20px;
+    background-color: azure;
+    min-height: 100vh;
+  }
+  .heading{
+    color:#0c3d92;
+    background-color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 24px;
+    border-bottom:1px solid #4078d9;
+    padding:10px;
+  }
+  textarea {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    outline: none;
+    border:1px solid #b0adad;
+    border-radius:4px;
+    font-size: 20px;
+    font-family: 'Roboto';
+  }
+  
+  .statistics {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   
+  }
+  .statistics table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    width:50%;
+    background-color: #ffffff;
+  }
+  
+  
+  
+  .replace-inputs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  @media (max-width:768px){
+    .replace-inputs {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 10px;
+    }
+  }
+  label{
+    font-family: 'Roboto';
+    color:#04254d;
+    font-size: 15px;
+  }
+  input {
+    padding: 5px 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    font-family: 'Roboto';
+    outline: none;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #124d8c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+ 
+  .statistics th{
+   padding:10px ;
+    color:#04254d;
+  }
+  .reading-heading{
+    width:50%;
+    padding:10px ;
+    text-align: left;
+    border: 1px solid rgb(131, 128, 128);
+    font-size: 15px;
+    font-family:"Roboto" ;
+    color: rgb(37, 50, 165);
+  }
+  .reading{
+    padding:10px ;
+    width:50%;
+    border: 1px solid rgb(131, 128, 128);
+    font-size: 15px;
+    font-family:"Roboto" ;
+    color: rgb(37, 50, 165);
+  }
+ 
